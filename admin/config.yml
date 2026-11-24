@@ -1,7 +1,7 @@
 # Konfigurasi admin Penerbit Kawijayan (Decap CMS)
 backend:
   name: github
-  repo: USERNAME/NAMA-REPO   # GANTI: akun GitHub dan nama repositori Anda
+  repo: anantakawijayan-pro/kawijayan-0.1   # GANTI: akun GitHub dan nama repositori Anda
   branch: main
 
 media_folder: "uploads"      # foto sampul tersimpan di folder uploads
