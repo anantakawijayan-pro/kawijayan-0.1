@@ -1,0 +1,103 @@
+{
+  "books": [
+    {
+      "judul": "Senja di Atas Teluk",
+      "penulis": "Laras Ayuningtyas",
+      "kategori": "Sastra",
+      "tahun": 2026,
+      "halaman": 312,
+      "isbn": "978-623-0000-01-1",
+      "harga": 89000,
+      "sinopsis": "Seorang guru muda kembali ke kampung pesisir dan menemukan surat-surat lama yang mengubah cara ia memandang keluarganya. Novel tentang pulang, kehilangan, dan laut yang tak pernah selesai bercerita.",
+      "warna": "28"
+    },
+    {
+      "judul": "Jejak Cetak Nusantara",
+      "penulis": "Dr. Bagus Wiranata",
+      "kategori": "Sejarah dan nonfiksi",
+      "tahun": 2026,
+      "halaman": 428,
+      "isbn": "978-623-0000-02-8",
+      "harga": 145000,
+      "sinopsis": "Penelusuran sejarah percetakan dan penerbitan buku di Indonesia, dari naskah tulis tangan hingga era digital, lengkap dengan arsip foto dan kisah para pelakunya.",
+      "warna": "205"
+    },
+    {
+      "judul": "Pedagogi Merdeka",
+      "penulis": "Sri Rahayu Pertiwi",
+      "kategori": "Pendidikan",
+      "tahun": 2026,
+      "halaman": 256,
+      "isbn": "978-623-0000-03-5",
+      "harga": 98000,
+      "sinopsis": "Panduan praktis untuk guru yang ingin merancang pembelajaran berpusat pada murid, disertai contoh kelas, rubrik, dan refleksi.",
+      "warna": "160"
+    },
+    {
+      "judul": "Si Kancil dan Pohon Ilmu",
+      "penulis": "Dewi Anjani",
+      "kategori": "Anak",
+      "tahun": 2026,
+      "halaman": 48,
+      "isbn": "978-623-0000-04-2",
+      "harga": 65000,
+      "sinopsis": "Kancil mencari pohon yang konon menyimpan semua pengetahuan. Cerita bergambar tentang rasa ingin tahu dan arti berbagi, untuk anak usia 4 sampai 8 tahun.",
+      "warna": "40"
+    },
+    {
+      "judul": "Kopi, Hujan, dan Rindu",
+      "penulis": "Arka Mahardika",
+      "kategori": "Sastra",
+      "tahun": 2026,
+      "halaman": 136,
+      "isbn": "978-623-0000-05-9",
+      "harga": 72000,
+      "sinopsis": "Kumpulan 64 puisi tentang kota kecil, secangkir kopi, dan hal-hal yang tak sempat diucapkan.",
+      "warna": "350"
+    },
+    {
+      "judul": "Lorong Waktu Sebuah Kota",
+      "penulis": "Bimo Prasetyo",
+      "kategori": "Sejarah dan nonfiksi",
+      "tahun": 2026,
+      "halaman": 352,
+      "isbn": "978-623-0000-06-6",
+      "harga": 125000,
+      "sinopsis": "Menyusuri satu kota lewat arsip, foto lama, dan wawancara warganya. Sejarah urban yang ditulis dengan gaya bercerita dan mudah diikuti.",
+      "warna": "300"
+    },
+    {
+      "judul": "Menata Pikir, Menulis Hidup",
+      "penulis": "Nadia Kusumawardani",
+      "kategori": "Sastra",
+      "tahun": 2026,
+      "halaman": 224,
+      "isbn": "978-623-0000-07-3",
+      "harga": 85000,
+      "sinopsis": "Kumpulan esai dan latihan menulis harian untuk merapikan pikiran, menyimpan kenangan, dan menemukan suara sendiri.",
+      "warna": "180"
+    },
+    {
+      "judul": "Literasi di Ruang Kelas",
+      "penulis": "Hendra Gunawan",
+      "kategori": "Pendidikan",
+      "tahun": 2026,
+      "halaman": 288,
+      "isbn": "978-623-0000-08-0",
+      "harga": 105000,
+      "sinopsis": "Strategi menumbuhkan kebiasaan membaca di sekolah dasar dan menengah, dari pojok baca sampai klub diskusi buku.",
+      "warna": "130"
+    },
+    {
+      "judul": "Kisah Burung di Tepi Sawah",
+      "penulis": "Dewi Anjani",
+      "kategori": "Anak",
+      "tahun": 2026,
+      "halaman": 40,
+      "isbn": "978-623-0000-09-7",
+      "harga": 62000,
+      "sinopsis": "Seekor burung kecil belajar mengenali musim dan hasil bumi bersama petani. Buku bergambar yang mengenalkan alam sekitar.",
+      "warna": "85"
+    }
+  ]
+}

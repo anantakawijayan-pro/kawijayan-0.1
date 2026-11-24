@@ -1,0 +1,42 @@
+# Konfigurasi admin Penerbit Kawijayan (Decap CMS)
+backend:
+  name: github
+  repo: USERNAME/NAMA-REPO   # GANTI: akun GitHub dan nama repositori Anda
+  branch: main
+
+media_folder: "uploads"      # foto sampul tersimpan di folder uploads
+public_folder: "/uploads"
+
+collections:
+  - name: "isi"
+    label: "Isi Website"
+    files:
+      - name: "buku"
+        label: "Katalog Buku"
+        file: "content/books.json"
+        fields:
+          - label: "Daftar Buku"
+            name: "books"
+            widget: "list"
+            label_singular: "Buku"
+            summary: "{{fields.judul}} - {{fields.penulis}}"
+            fields:
+              - { label: "Judul", name: "judul", widget: "string" }
+              - { label: "Penulis", name: "penulis", widget: "string" }
+              - { label: "Kategori", name: "kategori", widget: "select", options: ["Sastra", "Sejarah dan nonfiksi", "Pendidikan", "Anak"] }
+              - { label: "Tahun terbit", name: "tahun", widget: "number", value_type: "int", min: 2000, default: 2026 }
+              - { label: "Jumlah halaman", name: "halaman", widget: "number", value_type: "int", min: 1 }
+              - { label: "ISBN", name: "isbn", widget: "string", required: false }
+              - { label: "Harga (Rupiah, angka saja)", name: "harga", widget: "number", value_type: "int", min: 0 }
+              - { label: "Sinopsis", name: "sinopsis", widget: "text" }
+              - { label: "Foto sampul", name: "sampul", widget: "image", required: false, hint: "Opsional. Jika kosong, website membuat sampul otomatis dari judul dan warna di bawah." }
+              - { label: "Warna sampul otomatis", name: "warna", widget: "select", default: "205", required: false, options: [{ label: "Oranye", value: "28" }, { label: "Kuning", value: "40" }, { label: "Hijau muda", value: "85" }, { label: "Hijau", value: "130" }, { label: "Hijau toska", value: "160" }, { label: "Tosca", value: "180" }, { label: "Biru", value: "205" }, { label: "Biru tua", value: "230" }, { label: "Magenta", value: "300" }, { label: "Merah", value: "350" }] }
+      - name: "kontak"
+        label: "Kontak dan Alamat"
+        file: "content/site.json"
+        fields:
+          - { label: "Surel", name: "email", widget: "string" }
+          - { label: "Nomor WhatsApp untuk tautan (awali 62, tanpa + dan spasi)", name: "wa", widget: "string", hint: "Contoh: 6289674799362" }
+          - { label: "Nomor WhatsApp untuk ditampilkan", name: "waLabel", widget: "string", hint: "Contoh: +62 896-7479-9362" }
+          - { label: "Alamat", name: "address", widget: "string" }
+          - { label: "Jam layanan", name: "hours", widget: "string" }
